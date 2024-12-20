@@ -22,7 +22,5 @@ for i in range(1, N + 1):
         dp[i + T[i]] = max(dp[i + T[i]], dp[i] + P[i])
 
 print(dp[N + 1])
-
-
-
+print("")
 
